@@ -1,12 +1,7 @@
 # Redtide v0.2
-My attempt to scrape stock data, analyze the market, ... and tradebot
+My fork of the project found https://github.com/qks1lver/redtide
 
-**Python 3.5+**
-
-**( 2020.06.07 ) For those who already used Redtide before.**
-1. Thank you!
-2. I pretty much rebuilt it from the ground up and SQUASHED ALL the
-commits. **Pull with caution!**
+**Python 3.9.4 (tags/v3.9.4:1f2e308, Apr  6 2021, 13:40:21) [MSC v.1928 64 bit (AMD64)] on win32**
 
 #### Main changes
 1. **Live-quote option is deprecated!** It sucked, pretty sure no one
@@ -53,13 +48,13 @@ in the **redtide/** folder (I'll make a wheel at some point)
     environment, i.e.
         ```
         $ cd redtide/
-        $ python3 -m venv .
-        $ source bin/activate
+        $ python -m venv venv
+        $ venv/Scripts/activate
         ```
 2. Use the **requirements.txt** file to make sure you have
 everything you'll need. Run this:
 ```
-$ pip3 install -r requirements.txt
+$ python -m pip install -r requirements.txt
 ```
 
 #### B. Setup Selenium
