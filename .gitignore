@@ -13,3 +13,4 @@ data/.DS_Store
 *.csv
 venv/
 eodauth.txt
+.vscode/
