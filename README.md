@@ -78,10 +78,10 @@ gecko executable (the file you just unpacked), example:
     ```
 
 #### C. Setup authentications
-1. **[eoddata.com](http://eoddata.com/symbols.aspx) auth**
+1. **[eoddata.com](https://eoddata.com/symbols.aspx) auth**
     - This is so Redtide knows what stock symbols are out there
     - Register a free account on
-    **[eoddata.com](http://eoddata.com/symbols.aspx)**
+    **[eoddata.com](https://eoddata.com/symbols.aspx)**
     - Create a text file (whatever name you want, anywhere you want)
     - In the text file, line 1: username, line 2: password; example:
         ```
